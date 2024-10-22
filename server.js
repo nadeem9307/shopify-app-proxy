@@ -12,7 +12,7 @@ app.get('/api/shopify/orders', async (req, res) => {
   try {
     const response = await axios.get('https://knightcustoms.myshopify.com/admin/api/2024-10/orders.json?status=subscription', {
       headers: {
-        'X-Shopify-Access-Token': 'dfd',//as-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
+        'X-Shopify-Access-Token': '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',
         'Content-Type': 'application/json'
       }
     });
